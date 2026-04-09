@@ -285,10 +285,4 @@ Product performance becomes transparent. You see which categories drive revenue,
 
 ---
 
-## Email me for inquiries
-
-This dashboard system is proven across 5+ accounts and customizable to your specific e-commerce business model.
-
----
-
-_Built by: Digital Marketing Consultant specializing in e-commerce analytics and performance optimization_
+## Contact me for inquiries
