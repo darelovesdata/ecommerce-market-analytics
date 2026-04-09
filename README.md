@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-A comprehensive end-to-end analytics architecture that transforms fragmented data systems into a unified, real-time performance dashboard. This project demonstrates how integrated analytics drives strategic decision-making across GA4, Meta Ads, Google Ads, and Shopify for 5+ e-commerce clients.
+A comprehensive end-to-end analytics architecture that transforms fragmented data systems into a unified, real-time performance dashboard. This project demonstrates how integrated analytics drives strategic decision-making across GA4, Meta Ads, Google Ads and Shopify for 5+ e-commerce clients.
 
 ### Key Achievements
 
@@ -19,10 +19,10 @@ A comprehensive end-to-end analytics architecture that transforms fragmented dat
 
 E-commerce businesses often struggle with data fragmentation. The problem:
 
-- **Fragmented Systems**: Traffic data lives in GA4, paid performance in Google Ads and Meta, product/order data in Shopify, and customer engagement in HubSpot
+- **Fragmented Systems**: Traffic data lives in GA4, paid performance in Google Ads and Meta, product/order data in Shopify and customer engagement in HubSpot
 - **Manual Reporting Tax**: Teams spend 4-5 hours every week stitching data together instead of analyzing growth opportunities
 - **Stale Insight**: With 5-7 day data lag, strategic decisions are made on outdated information
-- **Lost Opportunity**: No visibility into which products, channels, and campaigns actually drive profitability
+- **Lost Opportunity**: No visibility into which products, channels and campaigns actually drive profitability
 
 This dashboard solves these problems by creating one source of truth for e-commerce performance.
 
@@ -40,7 +40,7 @@ The dashboard pulls data from five critical systems:
 4. **Shopify**: Product-level transaction data, AOV, category performance
 5. **HubSpot**: Customer retention metrics, email performance attribution
 
-All data flows into a unified dashboard structure that answers key business questions at three stakeholder levels: executives, marketing managers, and merchandisers.
+All data flows into a unified dashboard structure that answers key business questions at three stakeholder levels: executives, marketing managers and merchandisers.
 
 ---
 
@@ -185,11 +185,11 @@ Analytics is more than dashboards and KPIs. It's the story of how customers conn
 
 **Customer Intent**: When you see Gift Sets as 18% of revenue, you're seeing customers telling you they value your brand as a trusted source for thoughtful, curated presents. This insight informs everything from product photography to email subject lines to social media positioning.
 
-**Channel Preference**: Email's 6.2x ROAS tells a story: customers prefer direct, personalized, owned-channel communication over interruptive paid ads. This insight justifies investment in list growth, segmentation, and personalization - and shapes how you communicate in every email sent.
+**Channel Preference**: Email's 6.2x ROAS tells a story: customers prefer direct, personalized, owned-channel communication over interruptive paid ads. This insight justifies investment in list growth, segmentation and personalization - and shapes how you communicate in every email sent.
 
 **Experience Expectations**: A 67% mobile checkout abandonment rate isn't just a conversion metric. It's customers telling you they expect a frictionless, mobile-first experience. Meeting this expectation isn't optimization; it's brand delivery. Every second saved in checkout is a promise kept.
 
-**Growth Narrative**: Real-time dashboards let you tell authentic, timely stories. When conversion rate climbed from 2.8% to 3.2% month-over-month, you could communicate that progress to your team, your investors, and your brand partners in real time. Growth becomes visible and shareable.
+**Growth Narrative**: Real-time dashboards let you tell authentic, timely stories. When conversion rate climbed from 2.8% to 3.2% month-over-month, you could communicate that progress to your team, your investors and your brand partners in real time. Growth becomes visible and shareable.
 
 ### Scenario: Using Data to Tell Your Brand Story
 
@@ -208,7 +208,7 @@ Analytics is more than dashboards and KPIs. It's the story of how customers conn
 - To your team: "Storytelling about sustainability outperforms pure newness. Our impact narrative resonates."
 - To partners: "Our audience values quality and ethos - email engagement 30% above industry benchmark."
 
-This story shapes inventory strategy, influences how you source products, guides your content calendar, and justifies premium positioning. The data is the evidence; the story is the strategy.
+This story shapes inventory strategy, influences how you source products, guides your content calendar and justifies premium positioning. The data is the evidence; the story is the strategy.
 
 ---
 
@@ -251,15 +251,15 @@ This dashboard transforms you from a reporting administrator into a strategic an
 
 ### For Marketing Directors
 
-You finally have data-driven channel allocation. Instead of gut-feel budgeting, you see exact ROI by channel, audience segment, and campaign. Email's 6.2x ROAS becomes undeniable justification for retention investment.
+You finally have data-driven channel allocation. Instead of gut-feel budgeting, you see exact ROI by channel, audience segment and campaign. Email's 6.2x ROAS becomes undeniable justification for retention investment.
 
 ### For Executives
 
-Weekly board meetings become data-backed strategic discussions. You see real-time performance against targets, spot trends early, and make decisions with current information - not last month's data.
+Weekly board meetings become data-backed strategic discussions. You see real-time performance against targets, spot trends early and make decisions with current information - not last month's data.
 
 ### For Merchandisers
 
-Product performance becomes transparent. You see which categories drive revenue, which products underperform, and where customer friction exists. Inventory strategy, layout, and promotions become data-informed.
+Product performance becomes transparent. You see which categories drive revenue, which products underperform and where customer friction exists. Inventory strategy, layout and promotions become data-informed.
 
 ---
 
