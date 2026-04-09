@@ -103,7 +103,10 @@ Solution: Retention dashboard provides repeat purchase rates by cohort, CLV tren
 
 **Revenue Impact:**
 
-- Target: 15%+ average conversion rate increase attributed to faster optimization
+- Target: 10-15% average conversion rate improvement (typical range; 15-22% for smaller merchants, 8-12% for larger merchants)
+- Mechanism: Faster identification of underperforming channels and products enables rapid budget reallocation
+- Timeframe: Most improvements visible within 8-12 weeks of implementation
+- Context: 2026 economic environment emphasizes profitability-focused optimization over new customer acquisition
 - Measure: A/B test control (no dashboard access) vs. treatment (dashboard access)
 
 ### For Company
