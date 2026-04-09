@@ -191,24 +191,27 @@ When a metric declines:
 
 ## Benchmarking Context
 
-Performance standards vary by e-commerce vertical:
+Performance standards vary by e-commerce vertical. The ranges below reflect 2024-2026 market conditions with emphasis on profitability optimization over traffic growth.
 
 **Fashion & Apparel:**
 
 - Conversion rate: 1-2%
 - AOV: 50-75 USD
 - Repeat rate (30d): 8-12%
+- 2026 note: Brands focusing on margin optimization and brand repeat rather than new customer acquisition
 
 **Health & Supplements:**
 
 - Conversion rate: 2-4%
 - AOV: 40-60 USD
 - Repeat rate (30d): 25-40%
+- 2026 note: Strong repeat-purchase dynamics; focus shifting to subscription models and cohort retention
 
 **Consumer Electronics:**
 
 - Conversion rate: 0.5-1.5%
 - AOV: 150-400 USD
 - Repeat rate (30d): 3-8%
+- 2026 note: AOV improvements primarily through bundle optimization and complement-product recommendations
 
-Actual performance depends on market maturity, customer acquisition strategy, and product positioning.
+Actual performance depends on market maturity, customer acquisition strategy, product positioning and inventory health. In current economic environment, improvement typically comes from channel optimization and merchandising reallocation rather than new customer growth.
