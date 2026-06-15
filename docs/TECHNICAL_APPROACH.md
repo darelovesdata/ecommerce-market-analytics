@@ -2,16 +2,16 @@
 
 ## System Architecture Overview
 
-The dashboard operates as an integrated analytics platform connecting five data sources into a unified visualization layer.
+The dashboard operates as an integrated analytics platform connecting five data sources into a unified visualisation layer.
 
 ### Data Flow Architecture
 
-Data sources pass through processing logic into a centralized warehouse structure, then surface through Looker Studio visualization layer.
+Data sources pass through processing logic into a centralised warehouse structure, then surface through the Looker Studio visualisation layer.
 
 **Source Layer:**
 
-- GA4 (Google Analytics): Event-level user behavior via API
-- Shopify API: Product, order, customer data
+- GA4 (Google Analytics): Event-level user behaviour via API
+- Shopify API: Product, order and customer data
 - Google Ads API: Campaign performance metrics
 - Meta Ads Manager API: Advertising spend and conversions
 - HubSpot API: Customer engagement and email metrics
@@ -20,18 +20,18 @@ Data sources pass through processing logic into a centralized warehouse structur
 
 - Data validation and transformation (reconciling different data schemas)
 - Combining sales data with attribution data
-- Standardizing dimensions across systems (time zones, currency conversion)
+- Standardising dimensions across systems (time zones, currency conversion)
 - Calculating derived metrics (ROAS, CAC, CLV)
 
 **Storage Layer:**
 
-- Database schema organized by entity (customers, orders, campaigns, sessions)
+- Database schema organised by entity (customers, orders, campaigns, sessions)
 - Retention policy: 24 months rolling history
-- Indexing strategy: Optimized for date-range and segmentation queries
+- Indexing strategy: Optimised for date-range and segmentation queries
 
 **Presentation Layer:**
 
-- Looker Studio dashboards (interactive visualization)
+- Looker Studio dashboards (interactive visualisation)
 - Scheduled email reports (automated distribution)
 - API endpoint (programmatic access for third-party tools)
 
@@ -45,36 +45,36 @@ Different systems track conversions differently:
 - Shopify: Direct order attribution (no multichannel view)
 - Google Ads / Meta: Click-based conversion windows
 
-Solution: Create standardized attribution schema that maps:
+Solution: Create a standardised attribution schema that maps:
 
 - GA4 session ID to Shopify order ID
 - Ad click to Shopify customer ID
-- Email interaction to purchase within 7-day window
+- Email interaction to purchase within a 7-day window
 
 ### Challenge 2: Data Lag and Consistency
 
-API update frequencies vary:
+API update frequencies vary across platforms:
 
-- GA4: Updated within 48-72 hours (5-7 day delay for full processing)
+- GA4: Updated within 48–72 hours (5–7 day delay for full processing)
 - Shopify: Real-time webhook for orders
 - Google Ads: Updated within 24 hours
 - Meta Ads: Updated within 6 hours
 
-Solution: Implement tiered refresh schedule:
+Solution: Implement a tiered refresh schedule:
 
 - Real-time layer: Live traffic and revenue
-- Near-real-time: 1-hourly refresh for most metrics
+- Near-real-time: Hourly refresh for most metrics
 - Batch: Overnight reconciliation and historical updates
 
 ### Challenge 3: Data Quality and Validation
 
-Source systems have different quality baselines and completeness.
+Source systems have different quality baselines and levels of completeness.
 
 Solution: Implement validation rules:
 
 - Revenue reconciliation: Dashboard revenue must match Shopify within 2% daily
 - Session tracking: GA4 sessions must correlate with Shopify traffic
-- Currency standardization: Convert all metrics to base currency
+- Currency standardisation: Convert all metrics to base currency (GBP)
 - Missing data handling: Display data confidence intervals where applicable
 
 ## KPI Calculation Logic
@@ -83,7 +83,7 @@ Solution: Implement validation rules:
 
 **Revenue (Daily):**
 
-```data
+```
 SUM(Shopify.order_total) WHERE order_status = "completed"
 Filters: Date range, exclude refunds
 ```
@@ -125,7 +125,7 @@ Example: google.organic / facebook.cpc / direct.none
 
 ```
 Ad_Spend_by_Channel / New_Customers_from_Channel
-Example: $400 Google Ads spend / 8 new customers = $50 CAC
+Example: £320 Google Ads spend / 8 new customers = £40 CAC
 ```
 
 **New vs Returning Ratio:**
@@ -184,7 +184,7 @@ Lookback window: 30 days before purchase
 ### Page 1: Executive Summary
 
 - Most critical metrics visible without scrolling
-- Color-coded status indicators (green/yellow/red)
+- Colour-coded status indicators (green/yellow/red)
 - Comparison to target and prior period
 - Single-page printing capability
 
@@ -202,31 +202,32 @@ Lookback window: 30 days before purchase
 - Abandonment rate by device
 - Creative performance metrics
 
-### Page 4: Retention Analysis
+### Page 4: Customer Journey Analysis
+
+- Multi-stage conversion funnels mapping traffic to product views, cart additions, checkouts and final purchases
+- Drop-off rate at each funnel stage by device and channel
+- Session-to-purchase path visualisation
+- Interface friction identification by page and device type
+
+### Page 5: Retention & Email Performance
 
 - Cohort retention matrix (new customer cohorts on Y-axis, day ranges on X-axis)
 - CLV trending by acquisition month
 - Repeat purchase rate targets vs actual
+- Email-attributed revenue share and campaign performance breakdown
 - Segment-specific retention analysis
-
-### Page 5: Alert Dashboard
-
-- Automated red flags triggering action
-- Anomaly detection for unusual patterns
-- Forecast vs actual performance
-- Recommended optimizations based on data
 
 ## Implementation Tools
 
 **Data Ingestion:**
 
 - Google Sheets for initial prototyping (direct API reads)
-- (Scalable option: BigQuery for enterprise volume)
+- Scalable option: BigQuery for enterprise volume
 
-**Visualization:**
+**Visualisation:**
 
 - Looker Studio for interactive dashboards
-- (Scalable option: Tableau or Looker for deeper BI)
+- Scalable option: Tableau or Looker for deeper business intelligence
 
 **Automation:**
 
@@ -239,7 +240,7 @@ Lookback window: 30 days before purchase
 - SQL queries stored in version control
 - Refresh schedule published to stakeholders
 
-## Performance Optimization
+## Performance Optimisation
 
 **Query Efficiency:**
 
@@ -249,13 +250,13 @@ Lookback window: 30 days before purchase
 
 **Update Frequency Trade-offs:**
 
-- Real-time metrics: 1 to 2 key indicators only (server load)
+- Real-time metrics: 1 to 2 key indicators only (to manage server load)
 - Near-real-time (hourly): Most operational metrics
 - Daily batch: Historical trend analysis and comparisons
 
 **Scalability Considerations:**
 
-- Current: 5 clients, 50-100 GB data annually
+- Current: 5 clients, 50–100 GB data annually
 - Growth path: Migrate to data warehouse (BigQuery) at 500 GB+
 - Multi-client dashboard: Requires tenant isolation logic
 
@@ -263,14 +264,14 @@ Lookback window: 30 days before purchase
 
 **Data Accuracy Testing:**
 
-- Weekly reconciliation reports (Google Analytics vs Shopify vs ads platform)
+- Weekly reconciliation reports (Google Analytics vs Shopify vs ads platforms)
 - Variance thresholds documented
-- Alert if reconciliation exceeds threshold
+- Alert triggered if reconciliation exceeds threshold
 
 **Calculation Verification:**
 
 - Manual spot-check of top 10 metrics monthly
-- Compare dashboard to source system exports
+- Compare dashboard output to source system exports
 - Document any discrepancies and root causes
 
 **Performance Monitoring:**
@@ -290,7 +291,7 @@ Lookback window: 30 days before purchase
 
 **Documentation Standards:**
 
-- Every metric has documented calculation
+- Every metric has a documented calculation
 - Source of truth identified for each dimension
 - Refresh schedule and latency expectations documented
 - Known limitations and assumptions listed
