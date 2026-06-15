@@ -51,7 +51,7 @@ These metrics segment performance by marketing source, answering: "Where do prof
 
 - Calculation: Total marketing spend / New customers acquired
 - By channel: Spend by channel / New customers from channel
-- Comparison: Email typically £10–£30 per customer; paid social £50–£150 per customer
+- Comparison: Email typically £15–£40 per customer; paid social £80–£200 per customer
 - Profitability check: CAC must be lower than customer lifetime value
 
 **New vs Returning User Ratio:**
@@ -107,7 +107,7 @@ These metrics focus on building recurring revenue, answering: "How do we maximis
 **Customer Lifetime Value (CLV):**
 
 - Calculation: (Average order value x Purchase frequency x Customer lifespan)
-- Example: £75 AOV x 3 purchases/year x 4 years = £900 CLV
+- Example: £95 AOV x 3 purchases/year x 4 years = £1,140 CLV
 - Strategic: Compare CLV to CAC (target 3:1 minimum ratio)
 - Margin on CLV: Should account for cost of goods and fulfilment
 
@@ -205,23 +205,23 @@ Performance standards vary by e-commerce vertical. The ranges below reflect 2024
 
 **Fashion & Apparel:**
 
-- Conversion rate: 1–2%
-- AOV: £45–£65
+- Conversion rate: 2–4%
+- AOV: £85–£120
 - Repeat rate (30d): 8–12%
-- 2026 note: Brands are focusing on margin optimisation and repeat customer value rather than new customer acquisition
+- 2026 note: Brands are focusing on margin optimisation and repeat customer value rather than new customer acquisition. UK clothing return rates run at 23.6%, so net AOV after returns is the more meaningful metric to track.
 
 **Health & Supplements:**
 
-- Conversion rate: 2–4%
-- AOV: £35–£55
+- Conversion rate: 3–5%
+- AOV: £60–£95
 - Repeat rate (30d): 25–40%
 - 2026 note: Strong repeat-purchase dynamics; focus is shifting to subscription models and cohort retention
 
 **Consumer Electronics:**
 
 - Conversion rate: 0.5–1.5%
-- AOV: £120–£350
+- AOV: £150–£300
 - Repeat rate (30d): 3–8%
 - 2026 note: AOV improvements are driven primarily through bundle optimisation and complementary product recommendations
 
-Actual performance depends on market maturity, customer acquisition strategy, product positioning and inventory health. In the current economic environment, improvement typically comes from channel optimisation and merchandising reallocation rather than new customer growth.
+Actual performance depends on market maturity, customer acquisition strategy, product positioning and inventory health. In the current economic environment, improvement typically comes from channel optimisation and merchandising reallocation rather than new customer growth. 
