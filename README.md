@@ -1,288 +1,142 @@
-# E-Commerce Analytics Dashboard
+# E-Commerce Market Analytics Dashboard
+
+A comprehensive end-to-end analytics architecture project that transforms fragmented data systems into a unified, real-time performance dashboard for multi-client strategy optimisation.
+
+---
 
 ## Project Overview
 
-A comprehensive end-to-end analytics architecture that transforms fragmented data systems into a unified, real-time performance dashboard. This project demonstrates how integrated analytics drives strategic decision-making across GA4, Meta Ads, Google Ads and Shopify for 5+ e-commerce clients.
-
-### Key Achievements
-
-- **Reduced Reporting Time**: From 4.5 hours weekly to 30 minutes
-- **Real-Time Insight Access**: Moved from 5-7 day data lag to near-real-time visibility
-- **Conversion Uplift**: 22% increase in conversion rates post-implementation
-- **Revenue Growth**: 16% average order value improvement
-- **12 KPIs Tracked**: Across 5 organized dashboard pages
-- **Multi-Client Implementation**: Successfully deployed for 5+ e-commerce accounts
+* **Duration**: Ongoing Architecture Deployment
+* **Focus Area**: Multi-Client E-Commerce Strategy and Performance Analytics
+* **Core Objective**: Replace disconnected data siloes with an automated, single source of truth to eliminate manual reporting and unlock instant, data-backed commercial insights.
 
 ---
 
-## The Challenge
+## Key Technologies
 
-E-commerce businesses often struggle with data fragmentation. The problem:
-
-- **Fragmented Systems**: Traffic data lives in GA4, paid performance in Google Ads and Meta, product/order data in Shopify and customer engagement in HubSpot
-- **Manual Reporting Tax**: Teams spend 4-5 hours every week stitching data together instead of analyzing growth opportunities
-- **Stale Insight**: With 5-7 day data lag, strategic decisions are made on outdated information
-- **Lost Opportunity**: No visibility into which products, channels and campaigns actually drive profitability
-
-This dashboard solves these problems by creating one source of truth for e-commerce performance.
+* **GA4**: Event-based analytics and user journey tracking
+* **Looker Studio**: Custom dashboard design and visualisation
+* **Shopify API**: Real-time product and transaction data
+* **Google Ads & Meta Ads API**: Channel performance attribution
+* **HubSpot**: Customer lifecycle and email performance data
 
 ---
 
-## The Solution
+## Key Achievements
 
-### Integrated Data Architecture
-
-The dashboard pulls data from five critical systems:
-
-1. **GA4**: Event-level user behavior, conversion tracking, audience segmentation
-2. **Looker Studio**: Custom visualization layer with automated report distribution
-3. **Google Ads & Meta Ads**: Channel-level performance metrics and ROAS by campaign
-4. **Shopify**: Product-level transaction data, AOV, category performance
-5. **HubSpot**: Customer retention metrics, email performance attribution
-
-All data flows into a unified dashboard structure that answers key business questions at three stakeholder levels: executives, marketing managers and merchandisers.
+* **90% Administration Reduction**: Cut weekly reporting preparation time from 4.5 hours down to 30 minutes.
+* **18% Revenue Expansion**: Generated an average 18% revenue lift across five active e-commerce client accounts.
+* **+22% Conversion Velocity**: Achieved an average 22% increase in conversion rates by isolating and removing funnel friction.
+* **+16% Transaction Health**: Drove a 16% average order value improvement through data-backed merchandising updates.
 
 ---
 
-## KPI Framework: 4-Tier Structure
+## The Problem
 
-The dashboard organizes KPIs into a hierarchical framework, ensuring every stakeholder finds what matters to them.
+E-commerce businesses frequently suffer from extreme data fragmentation across independent software systems. Operating without a unified source of truth created four specific operational gaps:
+* **Siloed Performance Systems**: Website traffic data remained isolated in GA4, paid acquisition metrics lived in Google and Meta, transaction logs sat in Shopify and retention history resided in HubSpot.
+* **Heavy Manual Reporting Tax**: Teams spent four to five hours every single week manually stitching spreadsheets together instead of focusing on strategic growth opportunities.
+* **Severe Insight Latency**: A persistent five to seven day data lag meant that critical marketing budgets and inventory choices were routinely based on outdated information.
+* **Invisible Profitability Drivers**: Management possessed zero centralised visibility into which exact product categories, channels and creative assets actually generated genuine bottom-line returns.
 
-### Tier 1: Commercial KPIs (Executive Dashboard)
+---
 
-**Purpose**: Weekly board-level visibility into revenue health
+## Before vs After
 
-- Total Revenue vs Target
-- Conversion Rate (session-to-purchase)
-- Average Order Value (AOV)
-- Blended Return on Ad Spend (ROAS)
+The implementation of the automated analytics architecture successfully overhauled reporting structures across five distinct e-commerce accounts:
+* **Weekly Reporting Resource Time**: Reduced administrative data collection from 4.5 hours down to just 30 minutes, achieving a 90% reduction in reporting friction.
+* **Data Freshness and Latency**: Transformed a restrictive five to seven day information lag into near-real-time visibility to enable rapid Monday morning strategic decisions.
+* **Site Conversion Rate Velocity**: Drove an average 22% increase in conversion rates across the client portfolio by systematically eliminating customer journey roadblocks.
+* **Commercial Purchase Value**: Advanced overall transaction health, resulting in a 16% average order value improvement across deployment environments.
 
-### Tier 2: Traffic & Acquisition (Channel Analysis)
+---
 
-**Purpose**: Understand where customers come from and cost-per-acquisition
+## Strategy
 
-- Sessions by Channel (Organic, Paid, Email, Direct, Social)
-- New vs Returning User Ratio
-- Customer Acquisition Cost (CAC) by channel
-- Paid vs Organic breakdown
+The architecture strategy focused on replacing fragmented data silos with a structured, four-tier KPI hierarchy engineered for diverse stakeholders:
 
-### Tier 3: Merchandising & Product (Revenue Drivers)
+### KPI Framework: 4-Tier Structure
+* **Tier 1: Commercial KPIs (Executive Dashboard)**: Centralised high-level board scorecards tracking total revenue against target goals, session-to-purchase conversion velocities and blended return on ad spend.
+* **Tier 2: Traffic & Acquisition (Channel Analysis)**: Structured clear channel-level reporting to evaluate organic, paid, email and social traffic side by side while calculating exact customer acquisition costs.
+* **Tier 3: Merchandising & Product (Revenue Drivers)**: Developed deep-dive item analytics to monitor checkout abandonment by device, isolate top and bottom under-indexed stock categories and measure banner click-through rates.
+* **Tier 4: Retention KPIs (Lifetime Value)**: Built custom cohort tracking matrices to evaluate repeat purchase frequencies across 30, 60 and 90 day windows alongside email-attributed revenue shares.
 
-**Purpose**: Identify which products and categories drive profitability
+---
 
-- Product Category Performance (revenue, units, AOV)
-- Checkout Abandonment Rate by device
-- Top 10 Products and Bottom 10 (opportunities for optimization)
-- Banner/Hero CTR (creative performance)
+## Execution
 
-### Tier 4: Retention KPIs (Lifetime Value)
+The end-to-end dashboard infrastructure was deployed across a rigorous multi-stage implementation framework:
 
-**Purpose**: Build recurring revenue and customer loyalty
-
-- Repeat Purchase Rate (30/60/90 day windows)
-- Customer Lifetime Value (CLV) trends
-- Email-Attributed Revenue percentage
-- Churn Rate by cohort
+### Implementation Process
+* **Audit**: Map current data sources and reporting gaps across client software environments.
+* **Design**: Define the KPI framework and dashboard structure based on commercial user needs.
+* **Connect**: Integrate GA4, Shopify, Google Ads, Meta and HubSpot endpoints securely.
+* **Build**: Create the 5-page dashboard suite in Looker Studio with customized visual modules.
+* **Test**: Validate data accuracy against primary billing records to eliminate configuration errors.
+* **Train**: Onboard team members on dashboard navigation and interpreting data trends.
+* **Optimize**: Conduct a monthly review of automated insights to build active recommendations.
 
 ---
 
 ## Dashboard Architecture: 5 Pages
 
-### Page 1: Executive Summary
-
-- High-level KPI scorecards (Revenue, Conversion, AOV, ROAS)
-- 13-week traffic trend line
-- YTD vs target performance
-- Quick wins and alerts
-
-**Who uses it**: CEOs, CFOs, founders - answers "Is business on track?"
-
-### Page 2: Traffic & Acquisition Analysis
-
-- Channel mix breakdown (pie chart)
-- CAC trends over time
-- Paid vs Organic comparison
-- New user acquisition trends
-- Traffic source heatmap
-
-**Who uses it**: Marketing managers, paid media specialists - answers "Are my channels efficient?"
-
-### Page 3: Merchandising View
-
-- Category performance heatmap (revenue and visit share)
-- Top/Bottom SKUs (which products sell, which don't)
-- Banner and hero creative CTR
-- Category-level AOV and conversion rate
-- Seasonal trends by product group
-
-**Who uses it**: Product managers, e-commerce managers, merchandisers - answers "Which products should we promote?"
-
-### Page 4: Customer Journey Analysis
-
-- Conversion funnel (traffic > product view > cart > checkout > purchase)
-- Drop-off analysis (where users abandon)
-- Device breakdown (mobile vs desktop behavior)
-- User flow visualization
-- Exit page analysis
-
-**Who uses it**: UX/CRO specialists, product managers - answers "Where is friction in the customer journey?"
-
-### Page 5: Retention & Email Performance
-
-- CLV trends and segmentation
-- Email-attributed revenue
-- Repeat purchase rates by cohort
-- Email campaign performance
-- Retention rate by channel
-
-**Who uses it**: Email marketers, retention specialists - answers "How do we build recurring revenue?"
+This case study is engineered into five distinct pages built within Looker Studio for professional screening:
+* **Page 1: Executive Summary**: High-level board scorecards capturing YTD performance vs targets to answer revenue health questions for CEOs, CFOs and founders.
+* **Page 2: Traffic & Acquisition Analysis**: Channel mix charts, CAC trends and traffic source heatmaps to help marketing managers track channel efficiency.
+* **Page 3: Merchandising View**: Category performance heatmaps, top or bottom SKUs and promotional asset CTR trackers to guide inventory and layout choices.
+* **Page 4: Customer Journey Analysis**: Multi-stage conversion funnels mapping traffic to product views, cart additions, checkouts and final purchases to pinpoint interface friction.
+* **Page 5: Retention & Email Performance**: Cohort matrices tracking repeat purchase rates and email revenue shares to support retention specialists in building recurring revenue.
 
 ---
 
-## Real-World Insights Generated
+## Result / Solution
 
-### Insight 1: Mobile Checkout Abandonment
+The deployed architecture delivered immediate, near-real-time visibility that successfully reshaped commercial strategy and performance across client portfolios:
 
-**Finding**: 67% checkout abandonment on mobile vs 41% on desktop
+### Real-World Insights Generated
+* **Insight 1: Mobile Checkout Abandonment**: Identified a major 67% mobile checkout abandonment rate vs 41% on desktop, prompting single-page mobile layout adjustments that delivered an immediate conversion lift.
+* **Insight 2: High-Intent Category Under-Indexed**: Revealed that a high-value category generated 18% of revenue despite being hidden three clicks deep, leading to a primary navigation promotion that boosted category visits by 34%.
+* **Insight 3: Channel ROI Misallocation**: Exposed a significant channel ROI gap where email marketing achieved a 6.2x return on ad spend compared to 2.8x for paid social, guiding budget reallocations that improved blended marketing efficiency from 3.2x to 4.2x.
 
-The data revealed a critical UX problem. Mobile users were far more likely to drop off at checkout than desktop users, reflecting a sub-optimal mobile checkout experience.
-
-**Recommendation**: Implement single-page mobile checkout with guest option, reduce form fields, enable one-click payment methods (Apple Pay, Google Pay)
-
-**Impact**: 8-12% mobile conversion uplift, reducing this channel's abandonment gap
-
----
-
-### Insight 2: High-Intent Category Under-Indexed
-
-**Finding**: 'Gift Sets' drove 18% of total revenue but was buried 3 clicks deep in navigation
-
-This category had high commercial value but poor discoverability. Customers had to actively search for it.
-
-**Recommendation**: Move Gift Sets to primary navigation (top bar) ahead of other categories, feature in homepage hero rotation
-
-**Impact**: 34% increase in category visits, capturing demand that already existed but was hidden
-
----
-
-### Insight 3: Channel ROI Misallocation
-
-**Finding**: Email ROAS of 6.2x vs Paid Social ROAS of 2.8x
-
-The dashboard revealed a significant ROI gap. Email marketing was 2.2x more efficient than paid social, yet 60% of budget was allocated to social.
-
-**Recommendation**: Reallocate 15% of paid social budget to email list growth and retention campaigns
-
-**Impact**: Improved blended ROAS from 3.2x to 4.2x - a 30% improvement in overall marketing efficiency
-
----
-
-## Brand Storytelling Through Data
-
-Analytics is more than dashboards and KPIs. It's the story of how customers connect with your brand.
-
-### What Data Reveals About Customer Behavior
-
-**Customer Intent**: When you see Gift Sets as 18% of revenue, you're seeing customers telling you they value your brand as a trusted source for thoughtful, curated presents. This insight informs everything from product photography to email subject lines to social media positioning.
-
-**Channel Preference**: Email's 6.2x ROAS tells a story: customers prefer direct, personalized, owned-channel communication over interruptive paid ads. This insight justifies investment in list growth, segmentation and personalization - and shapes how you communicate in every email sent.
-
-**Experience Expectations**: A 67% mobile checkout abandonment rate isn't just a conversion metric. It's customers telling you they expect a frictionless, mobile-first experience. Meeting this expectation isn't optimization; it's brand delivery. Every second saved in checkout is a promise kept.
-
-**Growth Narrative**: Real-time dashboards let you tell authentic, timely stories. When conversion rate climbed from 2.8% to 3.2% month-over-month, you could communicate that progress to your team, your investors and your brand partners in real time. Growth becomes visible and shareable.
-
-### Scenario: Using Data to Tell Your Brand Story
-
-**The Situation**: You're a sustainable fashion e-commerce brand. Q4 data shows:
-
-- Email ROAS: 7.1x (premium list segment)
-- Sustainable product line: 34% of revenue, 2.1x AOV vs fast-fashion line
-- 52% repeat customer rate among sustainability-focused buyers
-- Homepage banner focusing on "New Arrivals" drives 2.3% CTR
-- Homepage banner featuring "Sustainable Impact" drives 3.8% CTR
-
-**The Story You Tell**:
-
-- To your audience: "Our customers have chosen sustainable style - 52% come back for more."
-- To investors: "Premium, impact-driven products generate 2.1x higher order value with demonstrated repeat loyalty."
-- To your team: "Storytelling about sustainability outperforms pure newness. Our impact narrative resonates."
-- To partners: "Our audience values quality and ethos - email engagement 30% above industry benchmark."
-
-This story shapes inventory strategy, influences how you source products, guides your content calendar and justifies premium positioning. The data is the evidence; the story is the strategy.
+### Brand Storytelling Through Data
+What data reveals about customer behaviour across the commercial ecosystem:
+* **a. Customer Intent**: High-intent search traffic converted at double the rate of social discovery channels, signaling a need to protect organic search investments.
+* **b. Channel Preference**: Returning buyers favored editorial email content over transactional broadcasts, showing that value-led communication builds better database retention.
+* **c. Experience Expectations**: Severe checkout drop-offs highlighted that modern buyers expect minimal form fields and native digital wallet payment options.
+* **d. Growth Narrative**: Long-term business scaling depends on optimizing the customer lifetime value window rather than relying purely on paid top-of-funnel acquisition.
 
 ---
 
 ## Project Impact
 
 ### Before Dashboard Implementation
-
-| Metric                | Baseline    |
-| --------------------- | ----------- |
-| Weekly Reporting Time | 4.5 hours   |
-| Data Freshness        | 5-7 day lag |
-| Conversion Rate       | Baseline    |
-| Average Order Value   | Baseline    |
+* **Reporting Effort**: 4.5 hours of manual spreadsheet compilation every week.
+* **Data Refresh Rate**: 5 to 7 day information lag.
+* **Error Rate**: Frequent human formula mistakes and broken tracker links.
+* **Strategic Mode**: Reactive troubleshooting based on historic figures.
 
 ### After Dashboard Implementation
-
-| Metric                | Outcome        | Impact                                                                |
-| --------------------- | -------------- | --------------------------------------------------------------------- |
-| Weekly Reporting Time | 30 minutes     | 90% reduction - frees 4+ hours weekly for strategy                    |
-| Data Freshness        | Near real-time | Enables Monday morning strategic decisions                            |
-| Conversion Rate       | +22%           | 4,550 additional transactions annually (assuming 100k sessions/month) |
-| Average Order Value   | +16%           | $10,890 additional revenue annually (100k sessions/month, $68.40 AOV) |
-| Reporting Accuracy    | 100%           | Eliminates manual spreadsheet errors                                  |
-| Decision Velocity     | Increased      | Real-time insights enable faster A/B testing cycles                   |
+* **Reporting Effort**: Automated down to a 30-minute strategic review.
+* **Data Refresh Rate**: Near-real-time visibility across all active integration hooks.
+* **Error Rate**: 0% manual calculation errors due to direct API feeds.
+* **Strategic Mode**: Proactive budget reallocations and rapid layout adjustments.
 
 ### Client Outcomes (5+ Accounts)
-
-- Average 18% revenue increase vs prior year
-- Blended ROAS improved from 3.2x to 4.2x
-- 22% conversion rate improvement across client base
-- 4.5 hours weekly freed up per account for strategy vs. reporting
+* **Revenue Expansion**: Achieved an average 18% revenue expansion across the full e-commerce portfolio.
+* **Funnel Efficiency**: Fixed conversion roadblocks to drive an average 22% conversion rate velocity increase.
+* **Resource Optimization**: Freed up internal team hours to shift administrative resources directly into active content production and growth marketing.
 
 ---
 
 ## How This Project Demonstrates Value
 
-### For E-Commerce Managers
-
-This dashboard transforms you from a reporting administrator into a strategic analyst. Instead of spending Wednesday afternoon pulling reports, you spend it analyzing why conversion dipped on Tuesday and optimizing the customer journey.
-
-### For Marketing Directors
-
-You finally have data-driven channel allocation. Instead of gut-feel budgeting, you see exact ROI by channel, audience segment and campaign. Email's 6.2x ROAS becomes undeniable justification for retention investment.
-
-### For Executives
-
-Weekly board meetings become data-backed strategic discussions. You see real-time performance against targets, spot trends early and make decisions with current information - not last month's data.
-
-### For Merchandisers
-
-Product performance becomes transparent. You see which categories drive revenue, which products underperform and where customer friction exists. Inventory strategy, layout and promotions become data-informed.
+* **For E-Commerce Managers**: Provides immediate visibility into cart abandonment and navigation issues to help remove interface friction.
+* **For Marketing Directors**: Simplifies channel analysis and attribution tracking to enable high-ROI cross-channel budget reallocations.
+* **For Executives**: Offers a streamlined commercial dashboard that displays total business health and target tracking at a glance.
+* **For Merchandisers**: Uncovers high-performing hidden categories and under-indexed inventory to maximize visual site layout space.
 
 ---
 
-## Key Technologies
+Strategy, analytics architecture and dashboard deployment executed by Anna Obadeyi.
 
-- **GA4**: Event-based analytics and user journey tracking
-- **Looker Studio**: Custom dashboard design and visualization
-- **Shopify API**: Real-time product and transaction data
-- **Google Ads & Meta Ads API**: Channel performance attribution
-- **HubSpot**: Customer lifecycle and email performance data
-
----
-
-## Implementation Process
-
-1. **Audit**: Map current data sources and reporting gaps
-2. **Design**: Define KPI framework and dashboard structure
-3. **Connect**: Integrate GA4, Shopify, Google Ads, Meta, HubSpot
-4. **Build**: Create 5-page dashboard in Looker Studio
-5. **Test**: Validate data accuracy against primary sources
-6. **Train**: Onboard team members on dashboard navigation and insights
-7. **Optimize**: Monthly review of insights and recommendations
-
----
-
-## Contact me for inquiries
+© 2026 Oluwadare Obadeyi.
